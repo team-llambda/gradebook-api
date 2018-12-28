@@ -1,5 +1,5 @@
 let apiKey
-const BASE_URL = 'https://grades.llambda.net'
+const BASE_URL = 'https://api.llambda.net'
 
 const setAPIKey = key => {
 	apiKey = key
