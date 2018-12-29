@@ -53,7 +53,7 @@ const getClass = (period, quarter = 'current') => {
 	})
 }
 
-exports = {
+module.exports = {
 	login,
 	logout,
 	getClasses,

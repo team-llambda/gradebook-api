@@ -1,19 +1,21 @@
 {
-  "name": "@team-llambda/gradebook-api",
-  "version": "0.2.0",
-  "description": "An NPM package for accessing the Edupoint Synergy API on behalf of students, parents, and teachers.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/team-llambda/gradebook-api.git"
-  },
-  "author": "Terrance Li, Andrew Liu, Nathan Yan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/team-llambda/gradebook-api/issues"
-  },
-  "homepage": "https://github.com/team-llambda/gradebook-api#readme"
+	"name": "@team-llambda/gradebook-api",
+	"version": "0.2.0",
+	"description": "An NPM package for accessing the Edupoint Synergy API on behalf of students, parents, and teachers.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/team-llambda/gradebook-api.git"
+	},
+	"author": "Terrance Li, Andrew Liu, Nathan Yan",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/team-llambda/gradebook-api/issues"
+	},
+	"homepage": "https://github.com/team-llambda/gradebook-api#readme",
+	"keywords": [
+		"gradebook",
+		"bsd405",
+		"llambda"
+	]
 }
