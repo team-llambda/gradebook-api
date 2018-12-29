@@ -44,7 +44,7 @@ const getClasses = () => {
 }
 
 const getClass = (period, quarter = 'current') => {
-	return fetch(BASE_URL + `/api/v1/class/${period}?quarter=${quarter}`, {
+	return fetch(BASE_URL + `/api/v1/classes/${period}?quarter=${quarter}`, {
 		method: 'GET',
 		headers: {
 			Accept: 'application/json'
