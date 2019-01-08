@@ -1,6 +1,6 @@
 {
 	"name": "@team-llambda/gradebook-api",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "An NPM package for accessing the Edupoint Synergy API on behalf of students, parents, and teachers.",
 	"main": "index.js",
 	"repository": {
