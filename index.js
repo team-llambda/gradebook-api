@@ -33,6 +33,17 @@ const logout = () => {
 	})
 }
 
+const isAuthenticated = () => {
+	return fetch(BASE_URL + '/api/v1/isAuthenticated', {
+		method: 'GET',
+		headers: {
+			Accept: 'application/json',
+			'Content-Type': 'application/json'
+		},
+		credentials: 'include'
+	})
+}
+
 const getClasses = () => {
 	return fetch(BASE_URL + '/api/v1/classes', {
 		method: 'GET',
@@ -57,5 +68,6 @@ module.exports = {
 	login,
 	logout,
 	getClasses,
-	getClass
+	getClass,
+	isAuthenticated
 }
