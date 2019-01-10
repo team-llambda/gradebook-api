@@ -33,6 +33,17 @@ const logout = () => {
 	})
 }
 
+const deactivate = () => {
+	return fetch(BASE_URL + '/api/v1/deactivate', {
+		method: 'POST',
+		headers: {
+			Accept: 'application/json',
+			'Content-Type': 'application/json'
+		},
+		credentials: 'include'
+	})
+}
+
 const isAuthenticated = () => {
 	return fetch(BASE_URL + '/api/v1/isAuthenticated', {
 		method: 'GET',
@@ -67,6 +78,7 @@ const getClass = (period, quarter = 'current') => {
 module.exports = {
 	login,
 	logout,
+	deactivate,
 	getClasses,
 	getClass,
 	isAuthenticated
